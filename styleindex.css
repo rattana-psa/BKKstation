@@ -1,0 +1,373 @@
+    .formmodel{
+      width: 50%;
+      display:block;
+      padding-bottom:5px;
+      font-family: 'Josefin Sans','Athiti', sans-serif;
+      background-color:#ffffff;   
+      text-align:center;
+    }
+
+    .down{
+      position:fixed;
+      width: 100%;
+      height: 25%;
+      bottom: 0px;
+      display:block;
+      padding-bottom:5px;
+      font-family: 'Josefin Sans','Athiti', sans-serif;
+      background-color:#ffffff;   
+      text-align:center;
+    }
+
+    .framebot {
+      max-width: 100%;
+      height: 400px;
+
+      }
+    
+    .right{
+    position:fixed;
+    display:block;  
+    top:7px; /* css กำหนดชิดด้านบน  */
+    right:40px; /* css กำหนดชิดขวา  */
+    padding-bottom:15px;
+    margin-top:50px;
+    font-family: 'Josefin Sans','Athiti', sans-serif;
+    background-color:#ffffff;   
+    width:19%; /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ */ 
+    text-align:center;
+    z-index:0.5;
+    }
+
+    .main {
+      font-family: 'Josefin Sans','Athiti', sans-serif;
+      width:100%;
+      margin-top:7px;
+    }
+
+    .footerr {
+      background-color: #ffffff;
+      float:left;
+      width:100%;
+      color: black;
+      padding: 5px;
+    }
+
+    .color-ggg,.w3-hover-ggg:hover{color:#000!important;background-color:#808080!important}
+    .color-gg,.w3-hover-gg:hover{color:#000!important;background-color:#ffffff!important}
+    .color-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#E4DAA3!important}
+    .color-green,.w3-hover-green:hover{color:#000!important;background-color:#A5E377!important}
+    .color-red,.w3-hover-red:hover{color:#fff!important;background-color:#E75A43!important}
+
+    .settext{
+      font-family: 'Kanit', sans-serif;
+      float:left;
+    }
+    .conbts {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:180px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conmrt {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:180px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conarl {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:180px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conus {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:200px;
+      padding: 1%;
+      margin:1%;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      
+      .conbts , .conmrt , .conarl , .conus {
+        height:250px;}
+        
+    }
+
+    @media only screen and (max-width: 850px) {
+      
+      .conbts , .conmrt , .conarl , .conus {
+        height:300px;}
+
+    }
+
+    @media only screen and (max-width:820px) {
+      .main , .right , .footer , .conbts , .conmrt , .conarl , .conus{
+        width:100%;}
+        
+    .conbts , .conmrt , .conarl , .conus {height:auto;}
+
+    .columnbts, .columnmrt, .columnarl {
+        height:250;
+      }
+    }
+
+    hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    } 
+
+    .clear {
+      clear: both;
+    }
+
+    /* Full-width input fields */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: auto;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+
+      .container {
+        padding: 14px;
+        font-family:Verdana;
+        color:black;
+        background-color: white;
+      }
+
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+      }
+
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        width: 60%; /* Could be more or less, depending on screen size */
+      }
+
+      /* The Close Button (x) */
+      .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: red;
+        cursor: pointer;
+      }
+
+      /* Add Zoom Animation */
+      .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+      }
+
+      @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+      }
+        
+      @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+
+      datalist {
+        display: none;
+      }
+
+      .buttonsub{
+        background-color: #ECECEC;
+        height: 45px;
+        width: 112px;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 15px;
+      }
+
+      .buttonphone{
+        background-color: #ECECEC;
+        height: 45px;
+        width: 150px;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 15px;
+      }
+
+      .buttonzoom {
+        background-color: #000000;
+        height: 40;
+        width: 40;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .columnbts {
+      font-family: 'Kanit', sans-serif;
+      float: left;
+      width: 33.33%;
+      height: 200px;
+      padding: 5px;
+      background-color: #D1FFCE;
+      box-sizing: border-box;
+    }
+
+    .columnmrt {
+      font-family: 'Kanit', sans-serif;
+      float: left;
+      width: 33.33%;
+      height: 200px;
+      padding: 5px;
+      background-color: #D9EAFF;
+      box-sizing: border-box;
+    }
+
+    .columnarl {
+      font-family: 'Kanit', sans-serif;
+      float: left;
+      width: 33.33%;
+      height: 200px;
+      padding: 5px;
+      background-color: #FFD9E4;
+      box-sizing: border-box;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width:700px) {
+      .columnbts, .columnmrt, .columnarl {
+        float: center;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        box-sizing: border-box;
+      }
+    }
+
+    .buttonchat {
+        position:fixed;
+        display:block;
+        background-image: url(image/chat.png);
+        background-size: 50px 50px;
+        width:50;
+        height:50;
+        bottom:10px;
+        right:10px;
+        border: none;
+        display: inline;
+        cursor: pointer;
+        border-radius: 50%;
+        z-index:1;
+    }
+
+      .form-container {
+        align:center;
+        max-width: 300px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid whitesmoke;
+      }
+
+
+    .form-container textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: whitesmoke;
+      resize: none;
+      min-height: 200px;
+    }
+
+      /* When the textarea gets focus, do something */
+      .form-container textarea:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      .chat-popup {
+        position: fixed;
+        right: 15px;
+        bottom: 57px;
+        display: none;
+        z-index: 9;
+      }

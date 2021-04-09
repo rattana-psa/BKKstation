@@ -1,0 +1,223 @@
+  
+    .downn{
+      position:fixed;
+      width: 25%;
+      bottom: 0px;
+      font-family: 'Josefin Sans','Athiti', sans-serif;
+      background-color:#ffffff;  
+      overflow: scroll;
+      z-index:0.5;
+    }
+
+    .main {
+      background-color: whitesmoke;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      width:70%;
+      margin-top:5%;
+      margin-left:15%;
+      
+
+    }
+
+    .mainn {
+      background-color:whitesmoke;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      margin-top:0;
+      padding-bottom: 0;
+      width:100%;
+      text-align:left;
+      border-top-style: none;
+    }
+
+    .inmainn {
+      background-color:white;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      float:left;
+      width:100%;
+      padding: 20px 10% 20px 10%;
+      text-align:left;
+
+    }
+    
+    .mainleft {
+      background-color:white;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      float:left;
+      width:50%;
+      padding: 0 10px 20px 8%;
+      border: 10px solid white;
+      text-align:left;
+    }
+
+    .mainright {
+      background-color:white;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      float:left;
+      width:50%;
+      padding: 0 20px 20px 10%;
+      border: 10px solid white;
+      text-align:left;
+
+    }
+
+    .maintable {
+      background-color:white;
+      font-family: 'Kanit', sans-serif;
+      color: black;
+      float:left;
+      width:100%;
+      margin-top:0;
+      border: 10px solid whitesmoke;
+      border-top-style: none;
+      text-align:left;
+
+    }
+
+      hr.new { 
+
+        border: 1px solid #0c673b;
+        width:75%;
+
+      }
+
+
+      .footerr {
+      background-color: #ffffff;
+      float:left;
+      width:100%;
+      color: black;
+      padding: 15px;
+    }
+
+    .color-smoke,.color-hover-smoke:hover{color:#000!important;background-color:whitesmoke!important}
+    .color-white,.color-hover-white:hover{color:#000!important;background-color:#ffffff!important}
+
+    .conbts {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:200px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conmrt {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:200px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conarl {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:200px;
+      padding: 1%;
+      margin:1%;
+    }
+    .conus {
+      font-family: 'Kanit', sans-serif;
+      background-color: #ffffff;
+      float:left;
+      width:23%;
+      height:200px;
+      padding: 1%;
+      margin:1%;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      
+      .conbts , .conmrt , .conarl , .conus {
+        height:250px;}
+        
+    }
+
+    @media only screen and (max-width: 850px) {
+      
+      .conbts , .conmrt , .conarl , .conus {
+        height:300px;}
+    }
+
+    @media only screen and (max-width:820px) {
+      .main , .right , .footer , .conbts , .conmrt , .conarl , .conus {
+        width:100%;}
+        
+    .conbts , .conmrt , .conarl , .conus {height:auto;}
+    }
+
+    hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    } 
+    .clear {
+      clear: both;
+    }
+
+    .buttoncase{
+        background-color: whitesmoke;
+        height: 45px;
+        width: 120px;
+        margin-top:1px;
+        margin-bottom:0px;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .buttonselect{
+      background-color: #ffffff;
+        height: 45px;
+        width: 120px;
+        margin-top:1px;
+        margin-bottom:0px;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .setleft{
+      font-family: 'Kanit', sans-serif;
+      float:left;
+      padding-left:12%;
+      font-size:20px;
+
+    }
+
+    .setright{
+      font-family: 'Kanit', sans-serif;
+      float:right;
+      padding-right:12%;
+      font-size:20px;
+    }
+
+    .setleft2{
+      font-family: 'Kanit', sans-serif;
+      float:left;
+      padding-left:2%;
+      font-size:12px;
+
+    }
